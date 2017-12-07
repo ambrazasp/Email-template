@@ -1,0 +1,227 @@
+
+body {
+  margin: 0;
+  padding: 0;
+}
+table {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+td {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+a {
+  text-decoration: none;
+  color: #031634;
+}
+
+p {
+  font-weight: 200;
+  width: 100%;
+  line-height: 1.5em;
+}
+tbody td {
+  color: #031634;
+}
+.border {
+  margin: 15px auto;
+  max-width: 640px;
+  border: 2px solid #031634;
+  padding: 0px 15px 50px 15px;
+}
+.header {
+  color: #f7f7f7;
+  background: #036564;
+  max-width: 512px;
+  width: 100%;
+  margin: auto auto 35px auto;
+  padding: 40px 0;
+}
+.header h1 {
+  padding-top: 20px;
+  margin: 0;
+}
+.header span {
+  font-weight: 300;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+.container {
+}
+.circle {
+  height: 170px;
+  width: 170px;
+  border-radius: 50%;
+  margin: 0px auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+td > .title {
+  font-weight: 300;
+  max-width: 398px;
+  width: 100%;
+  margin: 20px auto;
+  font-size: 24px;
+  border: 2px solid #031634;
+}
+.text-left {
+  text-align: justify;
+}
+.text-right {
+  text-align: right;
+}
+.jobs {
+}
+.job {
+  display: table;
+  padding: 10px 0;
+  max-width: 400px;
+}
+.job span {
+  display: block;
+}
+.job .date {
+  display: table-cell;
+  vertical-align: middle;
+  font-weight: 300;
+  font-size: 14px;
+}
+.job .date span {
+  width: 85px;
+  padding: 2px 0px;
+}
+.job .description {
+  font-weight: 200;
+}
+.job .description .title {
+  font-size: 18px;
+  padding-bottom: 3px;
+}
+.job .description .company,
+.job .description .location {
+  font-size: 12px;
+}
+.social {
+  padding-top: 10px;
+}
+.social > div {
+  margin: auto;
+}
+.social > div > div {
+  padding: 0 10px;
+  display: inline-block;
+}
+.social img {
+  height: 30px;
+  opacity: 0.7;
+}
+.skills .skill {
+  max-width: 400px;
+  margin: 10px auto;
+}
+.skills .bar {
+  background: #036564;
+  height: 25px;
+  display: table;
+  color: #f7f7f7;
+  position: relative;
+}
+.skills .bar .title {
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 15px;
+  font-size: 14px;
+}
+.skills .bar .value {
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 12px;
+  padding-right: 10px;
+  text-align: right;
+}
+.skills .bar .description {
+  font-size: 12px;
+  display: table-cell;
+  vertical-align: middle;
+  padding-right: 10px;
+}
+.inspiration {
+  max-width: 400px;
+  height: 250px;
+  margin: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.inspiration .content {
+  width: 90%;
+  height: 100%;
+  margin: auto;
+  padding: 0 5%;
+  background: rgba(255,255,255,0.9);
+  -webkit-transition: all .2s ease-out;
+  -moz-transition: all .2s ease-out;
+  -o-transition: all .2s ease-out;
+  transition: all .2s ease-out;
+}
+.inspiration .title {
+  padding-top: 90px;
+  font-size: 35px;
+  text-transform: uppercase;
+}
+.inspiration .description {
+  font-size: 16px;
+  font-weight: 300;
+}
+.portfolio .item {
+  display: flex;
+  margin: 20px 0;
+}
+.portfolio .item .img {
+  width: 40%;
+  height: 100px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% ;
+}
+.portfolio .item .description {
+    width: 60%;
+}
+.portfolio .item .description:nth-child(2n) {
+  padding-left: 10px;
+}
+.portfolio .item .description:nth-child(2n-1) {
+  padding-right: 10px;
+}
+.portfolio .item .description * {
+  display: block;
+}
+.portfolio .item .description .title {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+.portfolio .item .description .tags {
+  font-size: 12px;
+  opacity: 0.7;
+}
+.contact * {
+  display: block;
+  padding: 5px 0;
+  opacity: 0.7;
+}
+.container {
+  max-width: 400px;
+}
+.footer {
+
+    padding-top: 20px;
+}
+.footer a {
+  color: #ccc;
+  font-size: 10px;
+}
